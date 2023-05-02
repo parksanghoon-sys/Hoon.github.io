@@ -12,21 +12,29 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# 테마가 사용하는 색상을 선택합니다. 아래의 주소에서 미리보기로 확인할 수 있습니다.
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#skin
+minimal_mistakes_skin    : "air" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
+locale                   : "ko-KR"
+title                    : "ParkSangHoon's Blog"
+title_separator          : "C++ Programming &.Net Cross Platform Programming"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Park Sang Hoon"
+description              : "더 나은 코드로 더나은 사람이 되자."
+# 사이트의 주소로 도메인을 따로 설정하지 않았다면 GitHub Pages의 주소를 설정합니다.
+url                      : "https://Hoon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# GitHub의 repository를 설정합니다.
+# GitHub Pages가 아니더라도 연결하고 싶은 repository를 설정하면 됩니다.
+repository               : "parksanghoon-sys/Hoon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+# 사이트 제목 앞에 보여줄 로고입니다
+logo                     : "Hoon Blog" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# 일자 출력 포맷을 2023-03-22 형식으로 변경합니다. 없으면 추가합니다.
+date_format: "%Y-%m-%d"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,15 +112,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Park Sang Hoon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "C/C++,C# 등의 다양한 플랫폼을 다룹니다."
+  location         : "대한민국"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:tkdgns082@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,10 +132,14 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/parksanghoon-sys"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+  links:
+    - label: "RSS 피드"
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
 
 # Site Footer
 footer:
@@ -150,6 +162,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    
 
 
 # Reading Files
@@ -290,3 +303,14 @@ defaults:
       comments: # true
       share: true
       related: true
+        # 글의 바로 빝에 일자를 표시합니다.
+      show_date: true
+
+      # 포스트의 오른쪽 사이드에 목차를 보여줍니다. 없으면 추가합니다.
+      toc: true
+
+      # 포스트의 오른쪽 사이드에 목차를 스크롤에 영향받지 않고 화면에 고정시킵니다.
+      toc_sticky: true
+
+      # 목차의 제목을 설정합니다.
+      toc_label: "목차"
