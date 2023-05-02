@@ -1,5 +1,5 @@
 ---
-title: "GitHub Pages 블로그 포스트 올리기"
+title: "MQTT란"
 date: "2023-05-01 10:22:00 +0900"
 tags: [github, github-pages, jekyll, minimal-mistakes]
 ---

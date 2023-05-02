@@ -28,3 +28,9 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
     background-color: transparent;
   }
 }
+a{
+  text-decoration: none;
+}
+.archive-oneline {
+  line-height: 1.8em;
+}
