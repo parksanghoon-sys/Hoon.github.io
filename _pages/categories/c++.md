@@ -1,7 +1,7 @@
 ---
-title: C++-pages
+title: C++
 layout: archive
-permalink: /categories/c++pages
+permalink: /categories/c++
 author_profile: true
 sidebar:
   nav: sidebar-category
